@@ -8,6 +8,10 @@ Let's review what makes Meteor so special in comparison. As we've seen, the key 
 
 This is like a store clerk who not only finds the right book for you, but also follows you home to read it to you at night (which we'll admit does sound a bit creepy).
 
+This architecture lets Meteor do many cool things, chief among them what Meteor calls database everywhere. Simply put, Meteor will take a subset of your database and copy it to the client.
+
+This has two big implications: first, instead of sending HTML code to the client, a Meteor app will send the actual, raw data and let the client deal with it (data on the wire). Second, you'll be able to access and even modify that data instantaneously without having to wait for a round-trip to the server (latency compensation).
+
 ## Usage
 
 Clone.
