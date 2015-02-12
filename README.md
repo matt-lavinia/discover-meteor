@@ -29,3 +29,9 @@ The protocol that is spoken over that funnel is called DDP (which stands for Dis
 _autopublish_
 If you create a Meteor project from scratch (i.e using meteor create), it will automatically have the autopublish package enabled. As a starting point, let's talk about what that does exactly... MAKE SURE TO DISABLE FOR PRODUCTION LEVEL APPS
 
+## Resources Used While Learning
+* meteor.com - ran through basic tutorials and review of doc spec
+* discovermeteor.com - Great book (so far) with associated live examples
+* meteor + SEO: http://www.manuel-schoebel.com/blog/meteor-and-seo
+* Great series: https://gentlenode.com/journal/meteo
+* 
