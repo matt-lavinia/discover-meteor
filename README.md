@@ -14,7 +14,8 @@ This has two big implications: first, instead of sending HTML code to the client
 
 ## Usage
 
-Clone.
-Install meteor
-Run "meteor" from the console.
-Run "meteor mongo" for the Mongo console. 
+  - Clone this repo to a new directory
+  - cd into the root of the app
+  - Install meteor
+  - Run "meteor" from the console
+  - Run "meteor mongo" for the Mongo console 
