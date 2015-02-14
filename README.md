@@ -29,3 +29,16 @@ The protocol that is spoken over that funnel is called DDP (which stands for Dis
 _autopublish_
 If you create a Meteor project from scratch (i.e using meteor create), it will automatically have the autopublish package enabled. As a starting point, let's talk about what that does exactly... MAKE SURE TO DISABLE FOR PRODUCTION LEVEL APPS
 
+### Routing
+
+* Iron Router - https://github.com/iron-meteor/iron-router
+
+#### Vocabulary
+* Routes: A route is the basic building block of routing. It's basically the set of instructions that tell the app where to go and what to do when it encounters a URL.
+* Paths: A path is a URL within your app. It can be static (/terms_of_service) or dynamic (/posts/xyz), and even include query parameters (/search?keyword=meteor).
+* Segments: The different parts of a path, delimited by forward slashes (/).
+* Hooks: Hooks are actions that you'd like to perform before, after, or even during the routing process. A typical example would be checking if the user has the proper rights before displaying a page.
+* Filters: Filters are simply hooks that you define globally for one or more routes.
+* Route Templates: Each route needs to point to a template. If you don't specify one, the router will look for a template with the same name as the route by default.
+* Layouts: You can think of layouts as a “frame” for your content. They contain all the HTML code that wraps the current template, and will remain the same even if the template itself changes.
+* Controllers: Sometimes, you'll realize that a lot of your templates are reusing the same parameters. Rather than duplicate your code, you can let all these routes inherit from a single routing controller which will contain all the common routing logic.

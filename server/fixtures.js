@@ -1,5 +1,3 @@
-
-
 // Fill our DB with some dummy data
 
 if(Posts.find().count === 0){
