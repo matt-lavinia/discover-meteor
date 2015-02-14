@@ -43,6 +43,9 @@ If you create a Meteor project from scratch (i.e using meteor create), it will a
 * Layouts: You can think of layouts as a “frame” for your content. They contain all the HTML code that wraps the current template, and will remain the same even if the template itself changes.
 * Controllers: Sometimes, you'll realize that a lot of your templates are reusing the same parameters. Rather than duplicate your code, you can let all these routes inherit from a single routing controller which will contain all the common routing logic.
 
+Data Contexts
+https://www.discovermeteor.com/blog/a-guide-to-meteor-templates-data-contexts/
+
 =======
 ## Resources Used While Learning
 * meteor.com - ran through basic tutorials and review of doc spec
