@@ -42,3 +42,12 @@ If you create a Meteor project from scratch (i.e using meteor create), it will a
 * Route Templates: Each route needs to point to a template. If you don't specify one, the router will look for a template with the same name as the route by default.
 * Layouts: You can think of layouts as a “frame” for your content. They contain all the HTML code that wraps the current template, and will remain the same even if the template itself changes.
 * Controllers: Sometimes, you'll realize that a lot of your templates are reusing the same parameters. Rather than duplicate your code, you can let all these routes inherit from a single routing controller which will contain all the common routing logic.
+
+=======
+## Resources Used While Learning
+* meteor.com - ran through basic tutorials and review of doc spec
+* discovermeteor.com - Great book (so far) with associated live examples
+* meteor + SEO: http://www.manuel-schoebel.com/blog/meteor-and-seo
+* Great series: https://gentlenode.com/journal/meteo
+* 
+
