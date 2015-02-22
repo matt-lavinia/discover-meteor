@@ -12,3 +12,5 @@ spiderable
 iron:router
 sacha:spin
 http
+ian:accounts-ui-bootstrap-3
+accounts-password
